@@ -1,5 +1,6 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
+import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestMathUtilities;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -14,4 +15,5 @@ import org.junit.runners.Suite;
         TestStringUtilities.class,
 })
 public class TestSuite {
+
 }

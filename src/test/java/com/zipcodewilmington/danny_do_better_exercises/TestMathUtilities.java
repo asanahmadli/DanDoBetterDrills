@@ -1,5 +1,6 @@
-package com.zipcodewilmington.danny_do_better_exercises;
+package com.zipcodewilmington.danny_do_better_exercises.mathutilities;
 
+import com.zipcodewilmington.danny_do_better_exercises.MathUtilities;
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestAddition;
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestDivision;
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestMultiplication;
@@ -7,6 +8,8 @@ import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestSubtrac
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+
+import java.util.Optional;
 
 import static org.junit.Assert.*;
 /**
@@ -21,4 +24,5 @@ import static org.junit.Assert.*;
         TestMultiplication.class
 })
 public class TestMathUtilities {
+    
 }
